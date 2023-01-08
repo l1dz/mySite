@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>ShockFit</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css\CSS.css"/>
+    </head>
+
+    <body>
+        <div class="menu">
+            <div class="menuitemBox">
+                <a class="logo" href="main.html">
+                    <img src="images\logo.svg" alt="logo">
+                </a>
+                <div class="linkBox">
+                    <a href="prog.html" class = "menuItem">Направления тренировок</a>
+                    <a href="price.html" class = "menuItem">Цены</a>
+                    <a href="photo.html" class = "menuItem">Фото</a>
+                    <a href="contact.html" class = "menuItem">Контакты</a>
+                </div>
+            </div>
+        </div>
+        <div class="contentBoxPrice">
+          <h1>
+            Оставьте свой номер телефона 
+            и мы вам перезвоним в течение 5 минут для консультации
+          </h1>
+          <form class="actTel" action="/">
+            <input class="inputTel" type="tel" id="phone" name="phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required placeholder="+7 000 000 00 00">
+            <input type="name" class="inputTel" placeholder="ФИО">
+            <button class="buyButtonTel" type="submit">Отправить</button>
+          </form>
+        </div>
+        <div class="footer">
+            <div>
+                <p>Москва,</p> 
+                ул. Вятсякая, д. 27, стр. 7. 
+                <br>+7 995 113 42 51<br>
+                info@shockfit.ru
+                <br>График работы<br>
+                Пн-Сб, 9:00-21:00
+            </div>
+
+            <div>
+                <p>Телефонный номер:</p>
+                <p>8 800 555 35 35</p>
+            </div>
+        </div>
+    </body>
+</html>

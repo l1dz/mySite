@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+body{
+    width: 67%;
+    height: auto;
+    margin: auto;
+    background: #fafafa;
+}
+
+.menu{
+    background: #191919;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10000;
+    vertical-align: middle;
+}
+
+.menuitemBox{
+    display: flex;
+    justify-content: start;
+    margin: auto;
+    height: auto;
+    width: 67%;
+    vertical-align: middle;
+}
+
+.logo{
+    margin: auto 10px auto 20px;
+}
+
+.logo img{
+    width: 65px;
+    height: 65px;
+}
+
+.menuItem{
+    line-height: 30px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #fafafa;
+    text-align: center; 
+    transition: .5s;
+    margin-left: 20px;
+}
+
+.menuItem:hover{
+        color: #727272;
+}
+
+.linkBox{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    margin: auto 15px;
+}
+
+.contentBox{
+    margin-top: 86px;
+    position: relative;
+    background: #fafafa;
+    z-index: 100;
+    min-height: 700px;
+}
+
+.contentBox h1{
+    font-size: 32px;
+    position: relative;
+    margin: 15px 0 0 15px ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contentBoxPrice{
+    text-align: center;
+    margin-top: 86px;
+    position: relative;
+    background: #fafafa;
+    z-index: 100;
+    min-height: 700px;
+}
+
+.contentBoxPrice h1{
+    font-size: 32px;
+    position: relative;
+    margin: 15px 0 0 15px ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contentBoxPhoto{
+    margin-top: 86px;
+    position: relative;
+    background: #fafafa;
+    z-index: 100;
+    min-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.contentBoxPhoto h1{
+    width: 100%;
+    font-size: 32px;
+    position: relative;
+    margin: 15px 0 0 15px ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imageBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.imageBox img{
+    border-radius: 15px;
+    margin: 5px;
+    width: 400px;
+    height: 550px;
+}
+
+.textBox{
+    margin: 0 15px 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.textBox p{
+    text-align: justify;
+}
+
+.textBoxP{
+    margin: 0 15px 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 220px;
+}
+
+.textBoxP p{
+    text-align: justify;
+}
+
+.map img{
+    border-radius: 30px;
+    width: 600px;
+    height: 600px;
+    margin: 0 60px;
+}
+
+
+.plzKupi{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.form{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.buyButton{
+    background: #191919;
+    color: #fafafa;
+    border-radius: 7px;
+    border: none;
+    width: 310px;
+    height: 80px;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+    bottom: 0;
+    margin: 15px 0 0 0;
+    width: 100%;
+    height: auto;
+    background: #191919;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: #fafafa;
+}
+
+.footer p{
+    margin: 0;
+}
+
+.footer br{
+    margin: 0;
+}
+
+.footer div{
+    margin: 5px 10px;
+}
+
+.pictogrammBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.pictogramm{
+    text-align: center;
+    color: #191919;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 120px;
+    margin: 10px 30px;
+}
+
+.imgProgrBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.imgProgr{
+    text-align: center;
+    color: #191919;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 120px;
+    margin: 10px 30px;
+    width: 390px;
+    margin: 10px;
+}
+
+.imgProgr img{
+    width: 390px;
+    height: 490px;
+}
+
+.imgProgr p{
+    max-width: 400px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.inputTel{
+    width: 250px;
+    height: 32px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.actTel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 20px;
+}
+
+.buyButtonTel{
+    background: #191919;
+    color: #fafafa;
+    border-radius: 7px;
+    border: none;
+    width: 310px;
+    height: 40px;
+    margin: 5px 50%;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
